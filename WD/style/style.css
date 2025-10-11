@@ -1,0 +1,32 @@
+/* Очистка стилей */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+}
+
+/* у сайта НИКОГДА недолжно быть горизонтальног скролла */
+/* не даст элементам съехать max-1200 min- чтобы сжималось надо добавить max-width*/
+.container{
+   max-width: 1105px;
+   margin: 0 auto;
+}
