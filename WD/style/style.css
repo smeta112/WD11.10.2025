@@ -24,9 +24,146 @@ button{
     cursor: pointer;
 }
 
-/* у сайта НИКОГДА недолжно быть горизонтальног скролла */
-/* не даст элементам съехать max-1200 min- чтобы сжималось надо добавить max-width*/
 .container{
    max-width: 1105px;
    margin: 0 auto;
 }
+
+header{
+    background: #eeeff1;
+    padding-top: 57px;
+    padding-bottom: 146px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;  /* если расстояние от картинки*/
+    align-items: center;
+}
+.menu{
+    display: flex; /* если в строчку*/
+}
+.menu>li{           /* если к тегу li*/
+    margin-right: 42px;
+} 
+.menu>li>a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0.1em;
+    color: #000;
+} 
+.header-info{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-info>img{
+    margin-left: 85px;
+}
+.info>h1{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 164%;
+color: #000;
+margin-bottom: 60px;
+}
+.info>p{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 164%;
+color: #727272;
+max-width: 532px;
+margin-bottom: 60px;
+}
+.info>button{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 164%;
+letter-spacing: 0.1em;
+text-align: center;
+color: #fff;
+background: #34547A;
+padding: 25px 41px;
+margin-bottom: 60px;
+}
+section>h2{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 32px;
+text-align: center;
+color: #000;
+margin-top: 119px;
+margin-bottom: 50px;
+}
+section>p{
+ font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 164%;
+text-align: center;
+color: #727272;   
+max-width: 540px;
+margin-bottom: 100px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background:  #34547a;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.te>h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+}
+.te>p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #fff;
+}
+.spam>h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+}
+.spam>p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 164%;
+    color: #fff;
+}
+
+.proj{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1091px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1091px;
+    margin-top: 150px;
+}
+.bloc{
+
+    display: flex;
+}
+.bloc>img{
+    margin-right: 20px;
+}
+
+
